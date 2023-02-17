@@ -1,4 +1,4 @@
-import { UserDatabase } from "../data/UserData";
+import { UserDatabase } from "../data/UserDatabase";
 import { CustomError, InvalidEmail, InvalidPassword } from "../error/customError";
 import { User, UserInputDTO } from "../model/User";
 import { IdGenerator } from "../services/idGenerator";
